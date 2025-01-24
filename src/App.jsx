@@ -59,7 +59,7 @@ function App() {
           ))}
         </ul>
       </div>
-      <div>
+      <div className="chat-main">
         <div className="chat-header">Start Your Chat and Learn</div>
         <div className="chat-body">
           {messages.map((message, index) => (
